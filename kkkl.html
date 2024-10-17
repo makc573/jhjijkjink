@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форум - WarbenGrief</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="forum.html">Форум</a></li>
+                <li><a href="rules.html">Правила</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <h1>Форум</h1>
+        <div id="forum-topics">
+            <!-- Темы форума будут добавлены здесь -->
+        </div>
+        <h2>Создать новую тему</h2>
+        <input type="text" id="topic-title" placeholder="Заголовок темы">
+        <textarea id="topic-content" placeholder="Содержание темы"></textarea>
+        <button onclick="createTopic()">Создать тему</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 WarbenGrief. Все права защищены.</p>
+    </footer>
+    
+    <script src="forum.js"></script>
+</body>
+</html>
